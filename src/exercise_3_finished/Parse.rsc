@@ -1,7 +1,7 @@
-module Parse
+module exercise_3_finished::Parse
 
-import Syntax;
+import exercise_3_finished::Syntax;
 import ParseTree;
-import AST;
+import exercise_3_finished::AST;
 
-public Rating parse(loc origin) = implode(#AST::Rating, parse(#start[Rating], origin));
+public Rating parse(loc origin) = implode(#exercise_3_finished::AST::Rating, parse(#start[Rating], origin));

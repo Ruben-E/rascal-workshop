@@ -1,9 +1,9 @@
-module App
+module exercise_4_finished::App
 
 import IO;
-import Parse;
+import exercise_4_finished::Parse;
 
 public void run() {
-	rating = parse(|project://rascal-workshop-4/input/rating.txt|);
+	rating = parse(|project://rascal-workshop/src/exercise_4_finished/input/rating.txt|);
 	iprintln(rating);
 }

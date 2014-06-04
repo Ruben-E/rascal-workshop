@@ -1,4 +1,4 @@
-module Syntax
+module exercise_4::Syntax
 
 layout L = [\t\n\ \r\f]*;
 
