@@ -1,4 +1,4 @@
-module exercise_3::App
+module exercise_3::Opdracht
 
 import IO;
 import exercise_3::Parse;

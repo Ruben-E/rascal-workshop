@@ -1,4 +1,4 @@
-module Opdracht
+module exercise_2::Opdracht
 import analyze::ProjectAnalyzer;
 import IO;
 
@@ -11,6 +11,6 @@ import IO;
 
 public void analyze() {
 	ast = simpleLoadProject("rascal-android-example-project-intents");
-
+	iprintln(ast);
 }
 

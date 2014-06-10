@@ -10,6 +10,6 @@ import analyze::ProjectAnalyzer;
 
 public void analyze() {
 	ast = simpleLoadProject("rascal-android-example-project-intents");
-	
+	iprintln(ast);
 }
 
