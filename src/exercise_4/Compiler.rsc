@@ -1,5 +1,7 @@
 module exercise_4::Compiler
 
-public void compile(Ratings ratings) {
-	
+import exercise_4::AST;
+
+public str compile(Controller controller) {
+	// Werk hier de compiler uit.
 }
