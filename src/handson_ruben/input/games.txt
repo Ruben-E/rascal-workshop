@@ -1,0 +1,6 @@
+Ruben Quido 123 60
+Ruben Quido 80 40
+Ruben Eric 50 80
+Ruben Dennis 143 100
+Ruben Eric 112 50
+Ruben Quido 90 43
