@@ -20,10 +20,13 @@ public void extractListeners(ast) {
 }
 
 public void run() {
-	asts = simpleLoadProject("NPuzzle");
-	for(ast <- asts) {
-		extractListeners(ast);
-	}
-	
+	//asts = simpleLoadProject("NPuzzle");
+	//for(ast <- asts) {
+	//	extractListeners(ast);
+	//}
+	ast = createAstFromFile(
+	|project://NPuzzle/java/nl/rubenernst/han/mad/android/puzzle/MultiplayerGamePlayActivity.java|
+	, false);
+	iprintln(ast);
 }
 

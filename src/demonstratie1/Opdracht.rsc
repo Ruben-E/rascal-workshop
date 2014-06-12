@@ -1,4 +1,4 @@
-module exercise_1::Opdracht
+module demonstratie1::Opdracht
 import analyze::ProjectAnalyzer;
 import Declaration;
 import lang::java::m3::AST;
