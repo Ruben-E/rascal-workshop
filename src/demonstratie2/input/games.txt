@@ -1,0 +1,6 @@
+Ruben 123 60
+Ruben 80 40
+Ruben 50 80
+Ruben 143 100
+Ruben 112 50
+Ruben 90 43
