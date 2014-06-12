@@ -7,7 +7,7 @@ import IO;
 import Type;
 
 public void run() {
-	ast = simpleLoadProject("rascal-android-example-project-intents");
+	ast = simpleLoadProject("mad-android-puzzle");
 	iprintln(ast);
 }
 
